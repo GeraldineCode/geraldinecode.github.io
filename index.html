@@ -1,9 +1,46 @@
 <html> 
   <head>
-    <title>Hello World</title> 
+    <title>Geraldine Micoulloud's Website</title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta title="Geraldine Micoulloud website">
+    <meta name="description" content="website portfolio geraldine micoulloud web developer">
+    <meta name=”robots” content=”index, follow”>
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="./js/script.js"></script>
   </head>
 
   <body> 
-    <h1>Hello World</h1> 
+    <div id="nav">
+      <div id="topnav" class="topnav">
+          <a id="home_link" class="topnav_link" href="/">HOME</a>
+  
+          <!-- Classic Menu -->
+          <nav role="navigation" id="topnav_menu">
+              <a href="#">About Me</a>
+              <a href="#">My experiences</a>
+              <a href="#">My portfolio</a>
+          </nav>
+  
+          <a id="topnav_hamburger_icon" href="javascript:void(0);" onclick="showResponsiveMenu()">
+              <!-- Some spans to act as a hamburger -->
+              <span></span>
+              <span></span>
+              <span></span>
+          </a>
+  
+          <!-- Responsive Menu -->
+          <nav role="navigation" id="topnav_responsive_menu">
+            <ul class="nav">
+              <li><a href="#">About Me</a></li>
+              <li><a href="#">My experiences</a></li>
+              <li><a href="#">My portfolio</a></li>
+            </ul>
+          </nav>
+      </div>
+    </div>
   </body>
 </html>
